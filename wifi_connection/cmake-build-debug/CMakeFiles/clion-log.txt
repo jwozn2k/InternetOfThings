@@ -1,0 +1,41 @@
+/home/jwozniak/Pobrane/CLion-2022.2.4/clion-2022.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/jwozniak/Pobrane/CLion-2022.2.4/clion-2022.2.4/bin/ninja/linux/ninja -G Ninja -S /home/jwozniak/esp/wifi_connection -B /home/jwozniak/esp/wifi_connection/cmake-build-debug
+-- IDF_TARGET not set, using default target: esp32
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/jwozniak/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/jwozniak/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/jwozniak/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Checking Python dependencies...
+Python requirements from /home/jwozniak/esp/esp-idf/requirements.txt are satisfied.
+-- Project sdkconfig file /home/jwozniak/esp/wifi_connection/sdkconfig
+-- Found Python3: /home/jwozniak/.espressif/python_env/idf4.4_py3.9_env/bin/python3.9 (found version "3.9.12") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "wifi_connection" version: 1
+-- Adding linker script /home/jwozniak/esp/wifi_connection/cmake-build-debug/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/jwozniak/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/jwozniak/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/jwozniak/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/jwozniak/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/jwozniak/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/jwozniak/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/jwozniak/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/jwozniak/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
+-- Adding linker script /home/jwozniak/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update asio bootloader bootloader_support bt cbor cmock coap console cxx driver efuse esp-tls esp32 esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_ipc esp_lcd esp_local_ctrl esp_netif esp_phy esp_pm esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_websocket_client esp_wifi espcoredump esptool_py expat fatfs freemodbus freertos hal heap idf_test ieee802154 jsmn json libsodium log lwip main mbedtls mdns mqtt newlib nghttp nvs_flash openssl openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tcpip_adapter tinyusb ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/jwozniak/esp/esp-idf/components/app_trace /home/jwozniak/esp/esp-idf/components/app_update /home/jwozniak/esp/esp-idf/components/asio /home/jwozniak/esp/esp-idf/components/bootloader /home/jwozniak/esp/esp-idf/components/bootloader_support /home/jwozniak/esp/esp-idf/components/bt /home/jwozniak/esp/esp-idf/components/cbor /home/jwozniak/esp/esp-idf/components/cmock /home/jwozniak/esp/esp-idf/components/coap /home/jwozniak/esp/esp-idf/components/console /home/jwozniak/esp/esp-idf/components/cxx /home/jwozniak/esp/esp-idf/components/driver /home/jwozniak/esp/esp-idf/components/efuse /home/jwozniak/esp/esp-idf/components/esp-tls /home/jwozniak/esp/esp-idf/components/esp32 /home/jwozniak/esp/esp-idf/components/esp_adc_cal /home/jwozniak/esp/esp-idf/components/esp_common /home/jwozniak/esp/esp-idf/components/esp_eth /home/jwozniak/esp/esp-idf/components/esp_event /home/jwozniak/esp/esp-idf/components/esp_gdbstub /home/jwozniak/esp/esp-idf/components/esp_hid /home/jwozniak/esp/esp-idf/components/esp_http_client /home/jwozniak/esp/esp-idf/components/esp_http_server /home/jwozniak/esp/esp-idf/components/esp_https_ota /home/jwozniak/esp/esp-idf/components/esp_https_server /home/jwozniak/esp/esp-idf/components/esp_hw_support /home/jwozniak/esp/esp-idf/components/esp_ipc /home/jwozniak/esp/esp-idf/components/esp_lcd /home/jwozniak/esp/esp-idf/components/esp_local_ctrl /home/jwozniak/esp/esp-idf/components/esp_netif /home/jwozniak/esp/esp-idf/components/esp_phy /home/jwozniak/esp/esp-idf/components/esp_pm /home/jwozniak/esp/esp-idf/components/esp_ringbuf /home/jwozniak/esp/esp-idf/components/esp_rom /home/jwozniak/esp/esp-idf/components/esp_serial_slave_link /home/jwozniak/esp/esp-idf/components/esp_system /home/jwozniak/esp/esp-idf/components/esp_timer /home/jwozniak/esp/esp-idf/components/esp_websocket_client /home/jwozniak/esp/esp-idf/components/esp_wifi /home/jwozniak/esp/esp-idf/components/espcoredump /home/jwozniak/esp/esp-idf/components/esptool_py /home/jwozniak/esp/esp-idf/components/expat /home/jwozniak/esp/esp-idf/components/fatfs /home/jwozniak/esp/esp-idf/components/freemodbus /home/jwozniak/esp/esp-idf/components/freertos /home/jwozniak/esp/esp-idf/components/hal /home/jwozniak/esp/esp-idf/components/heap /home/jwozniak/esp/esp-idf/components/idf_test /home/jwozniak/esp/esp-idf/components/ieee802154 /home/jwozniak/esp/esp-idf/components/jsmn /home/jwozniak/esp/esp-idf/components/json /home/jwozniak/esp/esp-idf/components/libsodium /home/jwozniak/esp/esp-idf/components/log /home/jwozniak/esp/esp-idf/components/lwip /home/jwozniak/esp/wifi_connection/main /home/jwozniak/esp/esp-idf/components/mbedtls /home/jwozniak/esp/esp-idf/components/mdns /home/jwozniak/esp/esp-idf/components/mqtt /home/jwozniak/esp/esp-idf/components/newlib /home/jwozniak/esp/esp-idf/components/nghttp /home/jwozniak/esp/esp-idf/components/nvs_flash /home/jwozniak/esp/esp-idf/components/openssl /home/jwozniak/esp/esp-idf/components/openthread /home/jwozniak/esp/esp-idf/components/partition_table /home/jwozniak/esp/esp-idf/components/perfmon /home/jwozniak/esp/esp-idf/components/protobuf-c /home/jwozniak/esp/esp-idf/components/protocomm /home/jwozniak/esp/esp-idf/components/pthread /home/jwozniak/esp/esp-idf/components/sdmmc /home/jwozniak/esp/esp-idf/components/soc /home/jwozniak/esp/esp-idf/components/spi_flash /home/jwozniak/esp/esp-idf/components/spiffs /home/jwozniak/esp/esp-idf/components/tcp_transport /home/jwozniak/esp/esp-idf/components/tcpip_adapter /home/jwozniak/esp/esp-idf/components/tinyusb /home/jwozniak/esp/esp-idf/components/ulp /home/jwozniak/esp/esp-idf/components/unity /home/jwozniak/esp/esp-idf/components/usb /home/jwozniak/esp/esp-idf/components/vfs /home/jwozniak/esp/esp-idf/components/wear_levelling /home/jwozniak/esp/esp-idf/components/wifi_provisioning /home/jwozniak/esp/esp-idf/components/wpa_supplicant /home/jwozniak/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jwozniak/esp/wifi_connection/cmake-build-debug
